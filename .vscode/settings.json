@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "uart_update.h": "c",
+        "update_loader_download.h": "c",
+        "bd19.h": "c",
+        "gpio.h": "c",
+        "includes.h": "c",
+        "ledc.h": "c",
+        "cpu.h": "c",
+        "le_client_demo.h": "c",
+        "user_cfg.h": "c",
+        "vm.h": "c",
+        "typedef.h": "c",
+        "ble_drive.h": "c",
+        "key_drive.h": "c",
+        "user_main.h": "c",
+        "led.h": "c",
+        "led_drive.h": "c",
+        "le_common_define.h": "c",
+        "malloc.h": "c",
+        "event.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "F:\\mingw64\\bin\\gcc.exe"
+}

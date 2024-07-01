@@ -1,0 +1,355 @@
+« �
+[00:00:00.100]get_chip_id:   ffff
+[00:00:00.100]get_vbat_trim: 6
+[00:00:00.101]get_vbg_trim:  0
+[00:00:00.102][0-MSYS]--Reset Source : 0x1
+[00:00:00.102]P11 SYS RESET
+[00:00:00.103][1-P11]--Reset Source : 0x4
+[00:00:00.104]P33 SYS RESET
+[00:00:00.105][2-P33]--Reset Source : 0x1
+[00:00:00.105]VDDIO POR
+[00:00:00.107]=================Version===============
+[00:00:00.108]BTCTRLER-@20221123-$c284473
+[00:00:00.109]UPDATE-@20221123-$330d72d
+[00:00:00.109]=======================================
+[00:00:00.111][Info]: [SDFILE]VM size: 0x16300 @ 0x28c00
+[00:00:00.112][Info]: [SDFILE]disk capacity 512 KB
+[00:00:00.113]last file_addr:27ae6 1020
+[00:00:00.114]end_addr:28c00
+
+49 53 44 55 04 02 14 FF 71 AF 00 BB 6E A4 FF FF 
+[00:00:00.116][Debug]: [SDFILE]sdfile mount succ
+[00:00:00.123][Info]: [BOARD]Power init : F:\工作区\传感器开发\蓝牙传感器\蓝牙拓展模块\驱动程序\蓝牙拓展模块\apps\spp_and_le\board\bd19\board_ac632n_demo.c
+[00:00:00.132]trim: 0, wvdd_lev: 4
+[00:00:00.132]trim: 0, pvdd_lev: 11, pvdd_lev_l: 5
+[00:00:00.134]adc_add_sample_ch() 0 d ffffffff
+[00:00:00.135]add sample ch d
+[00:00:00.135]adc_add_sample_ch() 0 5000d d
+[00:00:00.136]adc_add_sample_ch() 1 5000d ffffffff
+[00:00:00.137]add sample ch 5000d
+[00:00:00.138]adc_add_sample_ch() 0 3000d d
+[00:00:00.138]adc_add_sample_ch() 1 3000d 5000d
+[00:00:00.139]adc_add_sample_ch() 2 3000d ffffffff
+[00:00:00.140]add sample ch 3000d
+[00:00:00.159]vbg_adc_value = 289
+[00:00:00.177]vbat_adc_value = 273
+[00:00:00.178]vbat = 3024 mv
+[00:00:00.197]dtemp_adc_value = 357
+[00:00:00.197]dtemp = 989 mv
+[00:00:00.199][Info]: [USER_CFG]bt name config:AC632N_1
+
+[00:00:00.200][Info]: [USER_CFG]rf config:10
+
+[00:00:00.200][Info]: [USER_CFG]warning_tone_v:340 poweroff_tone_v:330
+
+[00:00:00.202][Info]: [USER_CFG]auto_off_time:0
+
+[00:00:00.203][Info]: [USER_CFG]mac:
+
+86 32 17 C2 C1 EC 
+[00:00:00.204][Info]: [USER_CFG]lrc cfg:
+
+E0 01 90 01 E0 01 8C 00 01 
+[00:00:00.206][Info]: [TEST-UPDATE]testbox msg handle reg:1e023a0
+
+[00:00:00.207]app_update_cfg:0,0,1
+[00:00:00.208][Info]: [APP-UPDATE]<--------update_result_deal=0x5a00 e1b4--------->
+
+[00:00:00.210]=================update_param_len:900
+[00:00:00.211]>>>>>>>>>>>>>>>>>app_main...
+[00:00:00.212]>>> v220,2022-11-23 >>>
+[00:00:00.213]read id fail
+[00:00:00.213]id: 0 mac: A5 FE 75 D7 CA 60 
+[00:00:00.214]id: 0 mac: D0 CF F4 86 8C C9 
+[00:00:00.215]id: 0 mac: AC C4 5D 63 11 B0 
+[00:00:00.216]id: 0 mac: D0 CF F4 86 8C C9 
+[00:00:00.217]uart_init
+[00:00:00.218]JL_LEDCK->CLK = 0x103
+[00:00:00.219]JL_LEDCx[0]->CON = 0x2
+[00:00:00.220]JL_LEDCx[0]->TIX = 0x17060617
+[00:00:00.220]JL_LEDCx[0]->RSTX = 0x4e2000
+[00:00:00.221]init_user_led success 
+[00:00:00.222]开机动画
+[00:00:00.223][Info]: [APP]run app>>> central
+[00:00:00.224][Info]: [APP]Mar 23 2024,09:28:07
+[00:00:00.225][Info]: [CENTRAL]=======================================
+[00:00:00.226][Info]: [CENTRAL]-----------ble central demo----------------
+[00:00:00.227][Info]: [CENTRAL]=======================================
+[00:00:00.229][Info]: [CENTRAL]app_file: F:\工作区\传感器开发\蓝牙传感器\蓝牙拓展模块\驱动程序\蓝牙拓展模块\apps\spp_and_le\examples\ble_central\app_central.c
+[00:00:00.240][Info]: [COMM_BLE]---ble's address
+
+76 0A 46 C2 C1 EC 
+[00:00:00.241][Info]: [GATT_COMM]ble_comm_init,878
+
+[00:00:00.241][Info]: [GATT_COMM]ble_file: F:\工作区\传感器开发\蓝牙传感器\蓝牙拓展模块\驱动程序\蓝牙拓展模块\apps\common\third_party_profile\jieli\gatt_common\le_gatt_common.c
+[00:00:00.244][Info]: [GATT_COMM]gatt_config: 0,4
+
+[00:00:00.245][Info]: [GATT_COMM]btstack_config: 4-0-0-4
+
+[00:00:00.246][Info]: [GATT_CLIENT]ble_gatt_client_init
+
+[00:00:00.247][Info]: [GATT_COMM]ble_comm_init end
+
+[00:00:00.247]le_support:2 1
+[00:00:00.248]le_config:4 0 4 0
+[00:00:00.317][Debug]: [LBUF]lbuf misalgin : 0x211980 / 0x127e
+[00:00:00.319][Info]: [GATT_COMM]ble_profile_init
+
+[00:00:00.320][Info]: [GATT_CLIENT]ble_gatt_client_profile_init
+
+[00:00:00.321]att_send need_size >= 6+1+188
+[00:00:00.322][Info]: [GATT_COMM]ble_profile_init end
+
+[00:00:00.323][Info]: [CENTRAL]----central_bt_connction_status_event_handler 3
+[00:00:00.324][Info]: [COMM_BLE]STATUS_INIT_OK
+
+[00:00:00.325][BLE_CENTRAL]bt_ble_init
+ 
+[00:00:00.325][Info]: [GATT_COMM]ble_comm_set_config_name
+
+[00:00:00.326][Info]: [GATT_COMM]ble name(13): AC632N_1(BLE) 
+
+[00:00:00.327][BLE_CENTRAL]cetl_client_init 
+[00:00:00.328][Info]: [GATT_COMM]mode_en:1
+
+[00:00:00.329][Info]: [GATT_CLIENT]mode_en:1
+
+[00:00:00.329][Info]: [GATT_CLIENT]__gatt_client_just_new_dev_scan
+
+[00:00:00.330][Info]: [GATT_CLIENT]new_dev_scan
+
+[00:00:00.331][Info]: [GATT_CLIENT]client_work_st:1->40
+
+[00:00:00.332][Info]: [GATT_CLIENT]scan_param: 1-38-12
+
+[00:00:00.333][Info]: [GATT_CLIENT]scan_en:1
+
+[00:00:00.338]remoter_name:HPY_BLE_LED(BLE) ,rssi:-61
+A5 FE 75 D7 CA 60 
+[00:00:00.340]name OK!!!
+[00:00:00.340]index 0 mac ok!!!
+[00:00:00.340][Info]: [GATT_CLIENT]match ok
+
+[00:00:00.341][BLE_CENTRAL]match_dev:addr_type= 0
+ 
+A5 FE 75 D7 CA 60 
+[00:00:00.342][Info]: [GATT_CLIENT]client_work_st:40->2
+
+[00:00:00.343][Info]: [GATT_CLIENT]scan_en:0
+
+[00:00:00.344][Info]: [GATT_CLIENT]===========create_connection_request
+
+[00:00:00.345][Info]: [GATT_CLIENT]***remote type 0,addr:
+
+A5 FE 75 D7 CA 60 
+[00:00:00.346][Info]: [GATT_CLIENT]client_work_st:2->41
+
+[00:00:00.349][Info]: [GATT_CLIENT]drop scan_report!!!
+
+[00:00:01.347][Info]: [GATT_CLIENT]HCI_SUBEVENT_LE_CONNECTION_COMPLETE:conn_handle= 0050,rssi= -57
+
+[00:00:01.348][Info]: [GATT_CLIENT]conn_interval = 48
+
+[00:00:01.349][Info]: [GATT_CLIENT]conn_latency = 0
+
+[00:00:01.350][Info]: [GATT_CLIENT]conn_timeout = 400
+
+[00:00:01.350][Info]: [GATT_CLIENT]client_work_st:41->2
+
+[00:00:01.351]GATT_COMM_EVENT_CONNECTION_COMPLETE
+50 00 
+
+3E 13 01 00 50 00 00 00 A5 FE 75 D7 CA 60 30 00 
+00 00 90 01 
+[00:00:01.353][BLE_CENTRAL]connection_handle:0050, rssi= -57
+ 
+[00:00:01.354][BLE_CENTRAL]peer_address_info: 
+00 A5 FE 75 D7 CA 60 
+
+3E 13 01 00 50 00 00 00 A5 FE 75 D7 CA 60 30 
+[00:00:01.356]get locole device index:0
+
+A5 FE 75 D7 CA 60 
+[00:00:01.357][Info]: [GATT_CLIENT]start search_profile_all:0050
+
+[00:00:01.460][Info]: [GATT_COMM]just_handle=0050,type= 1
+
+[00:00:01.461][Info]: [GATT_CLIENT]handle= 50, ATT_MTU= 512,payload= 509
+
+[00:00:01.462][BLE_CENTRAL]con_handle= 50, ATT MTU = 512
+ 
+
+[00:00:01.940][Info]: [GATT_CLIENT]*** services, uuid16:1800,index=1 ***
+
+[00:00:01.942][Info]: [GATT_CLIENT]{charactc, uuid16:2a00,index=0,handle:0002~0003,value_handle=0003}
+
+[00:00:02.180][Info]: [GATT_CLIENT]*** services, uuid16:1801,index=2 ***
+
+[00:00:02.181][Info]: [GATT_CLIENT]{charactc, uuid16:2a05,index=0,handle:0005~0007,value_handle=0006}
+
+[00:00:02.301][Info]: [GATT_CLIENT]*** services, uuid16:ae30,index=3 ***
+
+[00:00:02.302][Info]: [GATT_CLIENT]{charactc, uuid16:ae01,index=0,handle:0009~000a,value_handle=000a}
+
+[00:00:02.304][Info]: [GATT_CLIENT]match one uuid
+
+[00:00:02.304][BLE_CENTRAL]match:server_uuid= ae30,charactc_uuid= ae01,value_handle= 000a
+ 
+[00:00:02.306][Info]: [GATT_CLIENT]*** services, uuid16:ae30,index=3 ***
+
+[00:00:02.307][Info]: [GATT_CLIENT]{charactc, uuid16:ae02,index=1,handle:000b~000d,value_handle=000c}
+
+[00:00:02.308][Info]: [GATT_CLIENT]match one uuid
+
+[00:00:02.309][BLE_CENTRAL]match:server_uuid= ae30,charactc_uuid= ae02,value_handle= 000c
+ 
+[00:00:02.310][Info]: [GATT_CLIENT]*** services, uuid16:ae30,index=3 ***
+
+[00:00:02.312][Info]: [GATT_CLIENT]{charactc, uuid16:ae03,index=2,handle:000e~000f,value_handle=000f}
+
+[00:00:02.313][Info]: [GATT_CLIENT]*** services, uuid16:ae30,index=3 ***
+
+[00:00:02.314][Info]: [GATT_CLIENT]{charactc, uuid16:ae04,index=3,handle:0010~0012,value_handle=0011}
+
+[00:00:02.315][Info]: [GATT_CLIENT]*** services, uuid16:ae30,index=3 ***
+
+[00:00:02.317][Info]: [GATT_CLIENT]{charactc, uuid16:ae05,index=4,handle:0013~0015,value_handle=0014}
+
+[00:00:02.318][Info]: [GATT_CLIENT]*** services, uuid16:ae30,index=3 ***
+
+[00:00:02.319][Info]: [GATT_CLIENT]{charactc, uuid16:ae10,index=5,handle:0016~0017,value_handle=0017}
+
+[00:00:02.420][Info]: [GATT_CLIENT]*** services, uuid16:ae3a,index=4 ***
+
+[00:00:02.421][Info]: [GATT_CLIENT]{charactc, uuid16:ae3b,index=0,handle:0041~0042,value_handle=0042}
+
+[00:00:02.540][Info]: [GATT_CLIENT]*** services, uuid16:ae3a,index=4 ***
+
+[00:00:02.541][Info]: [GATT_CLIENT]{charactc, uuid16:ae3c,index=1,handle:0043~0045,value_handle=0044}
+
+[00:00:02.660][Info]: [GATT_CLIENT]report_descriptor,handle= 0007 ,uuid16: 2902
+
+[00:00:02.780][Info]: [GATT_CLIENT]report_descriptor,handle= 000d ,uuid16: 2902
+
+[00:00:02.900][Info]: [GATT_CLIENT]report_descriptor,handle= 0012 ,uuid16: 2902
+
+[00:00:03.020][Info]: [GATT_CLIENT]report_descriptor,handle= 0015 ,uuid16: 2902
+
+[00:00:03.140][Info]: [GATT_CLIENT]report_descriptor,handle= 0045 ,uuid16: 2902
+
+[00:00:03.142][Info]: [GATT_CLIENT]client_report_search_result finish!!!
+
+[00:00:03.143][Info]: [GATT_CLIENT]opt_handle_used_cnt= 2
+
+[00:00:03.143][Info]: [GATT_CLIENT]do opt:service_uuid16:ae30,charactc_uuid16:ae01
+
+[00:00:03.145][Info]: [GATT_CLIENT]do opt:service_uuid16:ae30,charactc_uuid16:ae02
+
+[00:00:03.146][Info]: [GATT_CLIENT]write_ntf_ccc:000c
+
+[00:00:03.147]GATT_COMM_EVENT_GATT_SEARCH_PROFILE_COMPLETE
+50 00 
+[00:00:03.148][BLE_CENTRAL]GATT_SEARCH_PROFILE_COMPLETE:0050
+ 
+50 00 
+[00:00:03.149][Info]: [GATT_CLIENT]__gatt_client_just_new_dev_scan
+
+[00:00:03.150][Info]: [GATT_CLIENT]new_dev_scan
+
+[00:00:03.151][Info]: [GATT_CLIENT]client_work_st:2->40
+
+[00:00:03.151][Info]: [GATT_CLIENT]scan_param: 1-38-12
+
+[00:00:03.152][Info]: [GATT_CLIENT]scan_en:1
+
+[00:00:03.182]remoter_name:HX1 BLE ,rssi:-80
+E4 0E 0E 1E 43 9C 
+[00:00:03.183]name erro!!!
+
+[00:00:03.252]remoter_name:EDIFIER Lolli Pods Plus ,rssi:-87
+2A 74 1F 06 E8 FC 
+[00:00:03.254]name erro!!!
+[00:00:03.261][Info]: [GATT_CLIENT]data_report:hdl=0050,pk_type=a0,size=1
+
+[00:00:03.262][BLE_CENTRAL]data_report:hdl=0050,pk_type=a0,size=1
+ 
+00 
+[00:00:03.263][Info]: [GATT_CLIENT]slave request conn_update:
+-conn_handle= 0050
+-interval_min= 16,
+-interval_max= 24,
+-latency= 10,
+-timeout= 600
+
+[00:00:03.266][Info]: [GATT_CLIENT]conn_handle:0050,confirm_interval:24
+
+[00:00:03.620][Info]: [GATT_CLIENT]data_report:hdl=0050,pk_type=a7,size=8
+
+[00:00:03.621][BLE_CENTRAL]data_report:hdl=0050,pk_type=a7,size=8
+ 
+01 02 03 04 05 06 07 08 
+[00:00:03.730]register callback fun 31469354   event 0
+[00:00:03.730]register callback fun 31469450   event 4
+[00:00:03.731]register callback fun 31469556   event 5
+[00:00:03.732]register callback fun 31469484   event 1
+[00:00:03.733]key event init ok
+#
+[00:00:03.740][Info]: [GATT_COMM]just_handle=0050,type= 1
+
+[00:00:03.741][Info]: [GATT_CLIENT]conn_update_handle   = 0050
+
+[00:00:03.742][Info]: [GATT_CLIENT]conn_update_interval = 24
+
+[00:00:03.743][Info]: [GATT_CLIENT]conn_update_latency  = 10
+
+[00:00:03.744][Info]: [GATT_CLIENT]conn_update_timeout  = 600
+
+[00:00:03.745][BLE_CENTRAL]conn_param update_complete:0050
+ 
+
+[00:00:04.420]remoter_name:EDIFIER Lolli Pods Plus ,rssi:-81
+2A 74 1F 06 E8 FC 
+[00:00:04.421]name erro!!!
+
+[00:00:04.580][Info]: [GATT_CLIENT]data_report:hdl=0050,pk_type=a7,size=8
+
+[00:00:04.581][BLE_CENTRAL]data_report:hdl=0050,pk_type=a7,size=8
+ 
+01 02 03 04 05 06 07 08 
+[00:00:05.018]remoter_name:HX1 BLE ,rssi:-78
+E4 0E 0E 1E 43 9C 
+[00:00:05.019]name erro!!!
+
+[00:00:05.630][Info]: [GATT_CLIENT]data_report:hdl=0050,pk_type=a7,size=8
+
+[00:00:05.632][BLE_CENTRAL]data_report:hdl=0050,pk_type=a7,size=8
+ 
+01 02 03 04 05 06 07 08 
+[00:00:06.222]remoter_name:EDIFIER Lolli Pods Plus ,rssi:-82
+2A 74 1F 06 E8 FC 
+[00:00:06.224]name erro!!!
+
+[00:00:06.590][Info]: [GATT_CLIENT]data_report:hdl=0050,pk_type=a7,size=8
+
+[00:00:06.591][BLE_CENTRAL]data_report:hdl=0050,pk_type=a7,size=8
+ 
+01 02 03 04 05 06 07 08 
+[00:00:07.005]remoter_name:HX1 BLE ,rssi:-83
+E4 0E 0E 1E 43 9C 
+[00:00:07.006]name erro!!!
+
+[00:00:07.580][Info]: [GATT_CLIENT]data_report:hdl=0050,pk_type=a7,size=8
+
+[00:00:07.581][BLE_CENTRAL]data_report:hdl=0050,pk_type=a7,size=8
+ 
+01 02 03 04 05 06 07 08 
+[00:00:07.690]remoter_name:EDIFIER Lolli Pods Plus ,rssi:-84
+2A 74 1F 06 E8 FC 
+[00:00:07.691]name erro!!!
+
+[00:00:08.565]analyze end
+[00:00:08.600][Info]: [GATT_CLIENT]data_report:hdl=0050,pk_type=a7,size=8
+
+[00:00:08.601][BLE_CENTRAL]data_report:hdl=0050,pk_type=a7,size=8
+ 
+01 02 03 04 05 06 07 08 
